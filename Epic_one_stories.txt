@@ -1,0 +1,24 @@
+Copy the story into your rspec file as a comment.
+Then write the test(s) that class/method tests must pass.
+Then run the test(s) and see that they fail.
+Then implement the class/method, with comments, so that it passes the tests one at a time and you understand what you have created.
+Starting User Stories
+
+Story: As a developer, I can create a Task.
+
+Story: As a developer, I can give a Task a title and retrieve it.
+
+Story: As a developer, I can give a Task a description and retrieve it.
+
+Story: As a developer, I can mark a Task done.
+
+Story: As a developer, when I print a Task that is done, its status is shown.
+
+Hint: Implement to_s have it return the features of a Task with labels (for instance, "Title: Buy Food, Description: Bananas, milk").... is misleading
+
+Story: As a developer, I can add all of my Tasks to a TaskList.
+Hint: A TaskList has-many Tasks
+
+Story: As a developer with a TaskList, I can get the completed items.
+
+Story: As a developer with a TaskList, I can get the incomplete items.
